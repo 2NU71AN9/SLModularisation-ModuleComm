@@ -40,8 +40,9 @@ Pod::Spec.new do |s|
   s.dependency 'UMShare/UI'
   s.dependency 'UMShare/Social/WeChat'
   
-  s.dependency 'SLJGSDK'
   s.dependency 'Bugly'
+
+  s.dependency 'SLJGSDK'
   s.dependency 'ModuleResource'
   
   s.pod_target_xcconfig = {
