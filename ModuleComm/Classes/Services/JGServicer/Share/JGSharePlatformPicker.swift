@@ -41,7 +41,7 @@ public class JGSharePlatformPicker: BaseXibViewController {
     }
     @IBOutlet weak var timelineImageView: UIImageView! {
         didSet {
-            sessionImageView.image = R.image.wechatTimeLine50()
+            timelineImageView.image = R.image.wechatTimeLine50()
         }
     }
     @IBOutlet weak var bottomGap: NSLayoutConstraint!

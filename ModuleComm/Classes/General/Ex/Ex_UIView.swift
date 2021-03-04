@@ -10,7 +10,7 @@ import UIKit
 
 extension UIView {
     /// 从xib加载view
-    /// - Parameter module: 从哪个模块, 需要xib选中ModuleA-ModuleA
+    /// - Parameter module: 从哪个模块
     /// - Returns: view
     static func sl_loadNib() -> UIView? {
         let moduleName = Self.description().components(separatedBy: ".").first ?? ""
