@@ -13,6 +13,8 @@
             <connections>
                 <outlet property="bottomGap" destination="MFh-op-4r8" id="wqL-zL-3bN"/>
                 <outlet property="contentView" destination="Bqu-1s-gJp" id="9WU-Gh-a21"/>
+                <outlet property="sessionImageView" destination="Gxa-CS-kjt" id="SmJ-jC-hlF"/>
+                <outlet property="timelineImageView" destination="Lim-7a-Scq" id="Mlc-zu-gue"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="wechatSessionView" destination="Zbp-vl-VFU" id="xdi-2M-L15"/>
                 <outlet property="wechatTimelineView" destination="Cfe-NO-D6T" id="bfd-8A-jRb"/>

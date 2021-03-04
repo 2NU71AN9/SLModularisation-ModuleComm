@@ -34,6 +34,16 @@ public class JGSharePlatformPicker: BaseXibViewController {
             wechatTimelineView.addTarget(target: self, action: #selector(wechatTimelineAction))
         }
     }
+    @IBOutlet weak var sessionImageView: UIImageView! {
+        didSet {
+            sessionImageView.image = R.image.wechat50()
+        }
+    }
+    @IBOutlet weak var timelineImageView: UIImageView! {
+        didSet {
+            sessionImageView.image = R.image.wechatTimeLine50()
+        }
+    }
     @IBOutlet weak var bottomGap: NSLayoutConstraint!
 
     public init(_ platforms: [JSHAREPlatform] = [.wechatSession, .wechatTimeLine], complete: ((JSHAREPlatform) -> Void)?) {
